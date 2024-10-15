@@ -8,15 +8,15 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "none") 
-API_HASH = os.environ.get("API_HASH", "none") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "none") 
-MONGO_URL = os.environ.get("MONGO_URL", "none")
+API_ID = os.environ.get("API_ID", "26162072") 
+API_HASH = os.environ.get("API_HASH", "ba25181c01b50d945748801b6c8b6ecc") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7462431031:AAHWvN-7LSmV9jYD1kmUKBkNA1e87b3V_R4") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://j32025026:<db_diTBNy6AvTzCpOYi>@cluster0.mmcgi.mongodb.net/?retryWrites=true&w=majority")
 BOT_IMAGE = os.environ.get("BOT_IMAGE", "none")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "none")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "none")
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "none")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "none")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "@RebelGirl_Music_Bot")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "@Stylish_Star2")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "https://t.me/Filmone_Backup")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/Filmone_Request")
 
 
 bot = Client(
@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
 ┣❥︎ ♕︎𝐎𝐰𝐧𝐞𝐫♕︎   » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{OWNER_USERNAME})
 ┣❥︎ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{UPDATES_CHANNEL})
 ┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞](https://t.me/{SUPPORT_GROUP})
-┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
+┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/Stylish_Star2)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝
